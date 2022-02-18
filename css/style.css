@@ -11,29 +11,45 @@
 /* Utility */
 .debug {
     border: 5px solid black;
+    background-color: #0086FE;
 }
 
-main {
+section {
     width: 1200px;
     margin: 30px auto;
 }
 
-.alto {
+.pink {
     width: 100%;
     height: 150px;
     background-color: #E579E5;
     margin-bottom: 30px;
 }
 
-.basso {
+.yellow {
     width: 100%;
     height: 500px;
     background-color: #E1D57A;
 }
-/* .left {
-    float: left;
+
+.lightblue {
+    width: 100%;
+    height: 100px;
+    background-color: #ABCFE6;
+    margin-bottom: 30px;
+    
 }
 
-.right {
+#uno {
     float: right;
-} */
+    width: 300px;
+    height: 600px;
+    margin-top: 30px; 
+}
+
+#due {
+    float: left;
+    width: 300px;
+    height: 600px;
+    margin-top: 30px; 
+}
