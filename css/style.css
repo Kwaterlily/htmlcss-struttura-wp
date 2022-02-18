@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+.crearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Utility */
+.debug {
+    border: 5px solid black;
+}
+
+main {
+    width: 1200px;
+    margin: 30px auto;
+}
+
+.alto {
+    width: 100%;
+    height: 150px;
+    background-color: #E579E5;
+    margin-bottom: 30px;
+}
+
+.basso {
+    width: 100%;
+    height: 500px;
+    background-color: #E1D57A;
+}
+/* .left {
+    float: left;
+}
+
+.right {
+    float: right;
+} */
