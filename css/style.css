@@ -1,17 +1,16 @@
+/* general */
 * {    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* header e primo box */
 .crearfix::after {
     content: "";
     display: table;
     clear: both;
-}
-/* Utility */
-.debug {
-    border: 5px solid black;
-    background-color: #0086FE;
 }
 
 section {
@@ -31,37 +30,58 @@ section {
     height: 500px;
     background-color: #E1D57A;
 }
+/* /header e primo box */
+
+/* secondo, terzo e quarto box */
+.sfondo {
+    background-color: #0086FE;
+    overflow: auto;
+}
 
 .lightblue {
-    background-color: #ABCFE6;
-   
+    background-color: #ABCFE6;  
 }
 
 #head {
     width: 100%;
     height: 100px;
-    background-color: #ABCFE6;
     margin-bottom: 30px;
-
 }
+
 
 #uno {
-    float: right;
-    width: 300px;
-    height: 600px;
-    margin-top: 30px;
-     
+    width: 380px;
+    height: 500px;
+    margin-bottom: 30px;
+    float: left;        
 }
 
-/* #due {
-    float: left;
-    width: 300px;
-    height: 600px;
-    margin-top: 30px;
-} */
+#due {
+    width: 380px;
+    height: 500px;
+    margin-bottom: 30px;
+    float: right;   
+}
 
 #tre {
- 
-
-    
+    width: 380px;
+    height: 500px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    float: left;
 }
+/* /secondo, terzo e quarto box */
+
+/* footer */
+footer {
+    width: 1200px;
+    margin: auto;
+}
+
+#violet {
+    width: 100%;
+    height: 100px;
+    background-color: #8702FE;
+    margin-top: -10px;
+}
+/* /footer */
