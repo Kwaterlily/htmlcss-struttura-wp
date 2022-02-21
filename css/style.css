@@ -3,14 +3,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+    
 }
-
 
 /* header e primo box */
 .crearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.container {
+    width: 80%;
+    margin:0 auto;
+}
+
+header {
+    width: 1200px;
+    margin: 30px auto;
 }
 
 section {
@@ -20,16 +31,74 @@ section {
 
 .pink {
     width: 100%;
-    height: 150px;
-    background-color: #E579E5;
+    height: 180px;
     margin-bottom: 30px;
 }
 
-.yellow {
+#logo img {
+    height: 70px;
+    padding-right: 30px;
+    border-right: solid #d7d7d7;
+}
+
+nav li a {
+    text-decoration: none;
+    
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: 200;
+    color: rgb(186, 186, 186);
+}
+
+nav {
+    padding: 40px 0;
+}
+
+.hero {
     width: 100%;
     height: 500px;
-    background-color: #E1D57A;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
 }
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hoverlay::before {
+    content: "";
+    position: absolute;
+    top 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 2);
+}
+
+.hero .banner-text{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 60%;
+    color: white;
+}
+.hero .banner-text h1 {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 1em;
+}
+
 /* /header e primo box */
 
 /* secondo, terzo e quarto box */
@@ -47,7 +116,6 @@ section {
     height: 100px;
     margin-bottom: 30px;
 }
-
 
 #uno {
     width: 380px;
